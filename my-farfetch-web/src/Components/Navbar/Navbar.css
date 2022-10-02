@@ -1,0 +1,49 @@
+
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    padding: 1.5rem 5.7rem;
+}
+
+.left{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.mid{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--typography-body-font-family);
+}
+
+.right{
+    display: flex;
+    gap: 0.5rem;
+    /* border: 1px solid; */
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1.5rem;
+    padding: 0 4.5rem;
+    /* border: 1px solid; */
+}
+
+.menubar{
+    display: flex;
+    justify-items: flex-start;
+   
+    
+}

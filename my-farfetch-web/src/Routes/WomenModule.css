@@ -1,0 +1,85 @@
+.women{
+    
+    margin-top: 8rem;
+    
+}
+.box{
+    display: flex;
+    padding: 0 3rem;
+    gap: 3rem;
+    margin: 3rem;
+}
+.left_box{
+    flex: 1;
+    padding: 0 8rem;
+    margin: 4rem 0;
+}
+.right_box{
+    flex: 1.5
+}
+
+.trend{
+    text-align: left;
+    margin-left: 8rem;
+    margin-top: -3rem;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+
+}
+
+.cont-box{
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    padding: 3rem;
+}
+
+.prod-box{
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    /* border: 1px solid; */
+    
+}
+.img-box> img{
+    width: 100%;
+    background-image: transparent;
+    
+}
+.img-box{
+    background-color: beige;
+    
+}
+
+.prod-box > :nth-child(5){
+    margin-top: 1rem;
+    color: gray;
+}
+
+.highlights{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.more-details{
+    height: 150px;
+    width: 32%;
+    flex-direction: column;
+    padding: 0 2rem;
+    line-height: 2.5rem;
+    text-align: left;
+    border: 1px solid gray;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 2px;
+    margin: auto;
+    
+}
+
+

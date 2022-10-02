@@ -1,0 +1,58 @@
+
+
+.footer{
+    display: grid;
+      grid-template-columns: repeat(5,1fr);
+      text-align: left;
+      width:100%;
+      margin: auto;
+      cursor: pointer;
+      font-size: 12px;
+      margin-top: 35px;
+      line-height: 25px;
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      
+}
+
+.select{
+    text-align: start;
+    /* border: 1px solid; */
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+
+.subpart{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+.tfooter{
+    margin-bottom: 40px;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: centre;
+
+}
+.tfooter input{
+    
+     margin-right: 10px;
+     font-size: 17px;
+     border-radius: 5px;
+     border: 2px solid; 
+     height: 50px;
+
+}
+
+.select button {
+    height: 50px;
+    width: 100%;
+    font-weight: Bold;
+    padding: 0 40px 0 40px;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+}
+
