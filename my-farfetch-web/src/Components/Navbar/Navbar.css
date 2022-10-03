@@ -18,7 +18,19 @@
 .left{
     display: flex;
     gap: 2rem;
-    
+    cursor: pointer;
+}
+
+.left> :nth-child(2):hover{
+    font-weight: bold;
+}
+
+.left> :nth-child(1):hover{
+    font-weight: bold;
+}
+
+.left> :nth-child(3):hover{
+    font-weight: bold;
 }
 
 .mid{
@@ -29,7 +41,7 @@
 
 .right{
     display: flex;
-    gap: 0.5rem;
+    gap: 2rem;
     /* border: 1px solid; */
 }
 

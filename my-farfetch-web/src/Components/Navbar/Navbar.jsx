@@ -14,17 +14,32 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { SearchIcon } from '@chakra-ui/icons'
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { useState } from "react";
 
 const Navbar = () => {
   const [query, setQuery] = useState("");
+
+  // const activeStyle = {
+  //   color: "blue",
+  //   textDecoration: "underline",
+  //   padding: "1rem",
+  //   fontSize:"25px"
+
+  // }
+  // const defaultStyle ={
+  //   color: "purple",
+  //   textDecoration: "none",
+  //   padding: "1rem",
+  //   fontSize:"25px"
+  // }
   return (
     <div className="main">
       <div className="row1">
         <div className="left">
-          <Link to="/">
+
+        <Link to="/">
             <h2>Women</h2>
           </Link>
           <Link to="/men">
@@ -43,7 +58,7 @@ const Navbar = () => {
 
         <div className="right">
           <Link to="/">
-            <i class="fa-light fa-circle"></i>
+            <img width='30px' src="https://m.media-amazon.com/images/I/41SsNTB7pML._SX300_SY300_QL70_FMwebp_.jpg" alt="img"/>
           </Link>
           <Link to="/login">
             <i class="fa-regular fa-user"></i>
@@ -129,43 +144,31 @@ const Navbar = () => {
             </MenuButton>
             <MenuList color="black" display="flex">
               <Box>
-                <MenuGroup title="Whats New"></MenuGroup>
-                <MenuItem>Take a Tour</MenuItem>
-                <MenuItem>Features</MenuItem>
+                <MenuGroup title="MOMENTS"></MenuGroup>
+                <MenuItem>101 most-wanted gifts</MenuItem>
+                <MenuItem>New world workwear</MenuItem>
                 <MenuItem>Project Templates</MenuItem>
-                <MenuItem>App & Integrations</MenuItem>
-                <MenuItem>Security</MenuItem>
-                <MenuItem>Watch Live Demo</MenuItem>
+                <MenuItem>The occasionwear edit</MenuItem>
+                <MenuItem>75 getaway get-ups</MenuItem>
+                
               </Box>
 
               <Box>
-                <MenuGroup title="Whats New"></MenuGroup>
-                <MenuItem>Take a Tour</MenuItem>
-                <MenuItem>Features</MenuItem>
-                <MenuItem>Project Templates</MenuItem>
-                <MenuItem>App & Integrations</MenuItem>
-                <MenuItem>Security</MenuItem>
-                <MenuItem>Watch Live Demo</MenuItem>
+                <MenuGroup title="DISCOVER"></MenuGroup>
+                <MenuItem>150 most-wanted <br/> pieces</MenuItem>
+                <MenuItem>The bestsellers</MenuItem>
+                <MenuItem>Conscious</MenuItem>
+                <MenuItem>Best of streetwear</MenuItem>
+                
               </Box>
 
               <Box>
-                <MenuGroup title="Whats New"></MenuGroup>
-                <MenuItem>Take a Tour</MenuItem>
-                <MenuItem>Features</MenuItem>
-                <MenuItem>Project Templates</MenuItem>
-                <MenuItem>App & Integrations</MenuItem>
-                <MenuItem>Security</MenuItem>
-                <MenuItem>Watch Live Demo</MenuItem>
-              </Box>
-
-              <Box>
-                <MenuGroup title="Whats New"></MenuGroup>
-                <MenuItem>Take a Tour</MenuItem>
-                <MenuItem>Features</MenuItem>
-                <MenuItem>Project Templates</MenuItem>
-                <MenuItem>App & Integrations</MenuItem>
-                <MenuItem>Security</MenuItem>
-                <MenuItem>Watch Live Demo</MenuItem>
+                <MenuGroup title="BOUTIQUE GUIDES"></MenuGroup>
+                <MenuItem>The cult edit</MenuItem>
+                <MenuItem>The classic edit</MenuItem>
+                <MenuItem>The minimalist edit</MenuItem>
+                <MenuItem>The hype streetwear <br/> edit</MenuItem>
+                
               </Box>
 
               <Box
@@ -195,44 +198,29 @@ const Navbar = () => {
             </MenuButton>
             <MenuList color="black" display="flex">
               <Box>
-                <MenuGroup title="Whats New"></MenuGroup>
+                <MenuGroup title="FEATURED BRANDS"></MenuGroup>
                 <MenuItem>Take a Tour</MenuItem>
                 <MenuItem>Features</MenuItem>
                 <MenuItem>Project Templates</MenuItem>
                 <MenuItem>App & Integrations</MenuItem>
                 <MenuItem>Security</MenuItem>
                 <MenuItem>Watch Live Demo</MenuItem>
+              </Box>
+              <Box>
+
+                
               </Box>
 
               <Box>
-                <MenuGroup title="Whats New"></MenuGroup>
-                <MenuItem>Take a Tour</MenuItem>
-                <MenuItem>Features</MenuItem>
-                <MenuItem>Project Templates</MenuItem>
-                <MenuItem>App & Integrations</MenuItem>
-                <MenuItem>Security</MenuItem>
-                <MenuItem>Watch Live Demo</MenuItem>
+                <MenuGroup title="BRANDS A-Z"></MenuGroup>
+                <MenuItem>A  B  C  D  E</MenuItem>
+                <MenuItem>F  G  H  I  J  K </MenuItem>
+                <MenuItem>L  M  N  O  P</MenuItem>
+                <MenuItem>Q  R  S  T  U</MenuItem>
+                <MenuItem>V  W  X  Y  Z</MenuItem>
+                
               </Box>
 
-              <Box>
-                <MenuGroup title="Whats New"></MenuGroup>
-                <MenuItem>Take a Tour</MenuItem>
-                <MenuItem>Features</MenuItem>
-                <MenuItem>Project Templates</MenuItem>
-                <MenuItem>App & Integrations</MenuItem>
-                <MenuItem>Security</MenuItem>
-                <MenuItem>Watch Live Demo</MenuItem>
-              </Box>
-
-              <Box>
-                <MenuGroup title="Whats New"></MenuGroup>
-                <MenuItem>Take a Tour</MenuItem>
-                <MenuItem>Features</MenuItem>
-                <MenuItem>Project Templates</MenuItem>
-                <MenuItem>App & Integrations</MenuItem>
-                <MenuItem>Security</MenuItem>
-                <MenuItem>Watch Live Demo</MenuItem>
-              </Box>
 
               <Box
                 maxW="sm"

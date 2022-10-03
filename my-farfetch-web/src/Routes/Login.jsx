@@ -46,7 +46,7 @@ import {
       <Box>
         <br /> <br />
         <Container
-          p={10}
+          p={10} mt='8rem' mb='5rem'
           boxShadow="rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px"
         >
           <FormControl>
@@ -78,6 +78,7 @@ import {
                 <Button onClick={handleSignIn} colorScheme="teal" variant="solid">
                   Log-in
                 </Button>
+                
                 <Flex
                   query="SIGN UP"
                   styles={{
@@ -86,6 +87,8 @@ import {
                     color: "blue",
                     textDecoration: "underline"
                   }}
+                  
+                  
                 >
                   Don’t have an account?
                   <Text onClick={() => setMove(true)}>SIGN UP</Text>

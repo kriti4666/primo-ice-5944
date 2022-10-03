@@ -38,40 +38,44 @@ const Footer = () => {
     <div className='footer'>
      
         <div className='fchild1'>
-          <Text fontSize="lg">Product</Text>
-          <p>Product tour</p>
-          <p>Pricing</p>
-          <p>Template</p>
-          <p>Apps & Integrations</p>
-          <p>Task management</p>
-          <p>Gantt charts</p>
-          <p>Wrike Status</p>
-          <p>CA Notice Collection</p>
-          <p>API</p>
-        </div>
-        <div>
-          <Text fontSize="lg">Solution</Text>
-          <p>All Teams</p>
-          <p>Marketing</p>
-          <p>Creavtice</p>
-          <p>Project Management</p>
-          <p>Product Management</p>
-          <p>Business Operation</p>
-          <p>Professional Services</p>
-          <p>Students</p>
-        </div>
-        <div>
-          <Text fontSize="lg">Resources</Text>
-          <p>Help Center</p>
-          <p>Community</p>
-          <p>Webinars</p>
-          <p>Intractive Traning</p>
-          <p>Support</p>
-          <p>Google project management tools</p>
+          <Text fontSize="lg">FARFETCH APP</Text>
+          <br/>
+          <p>Farfetch App for iOS and Android</p>
           
         </div>
         <div>
-        <Text fontSize="lg">Company</Text>
+          <Text fontSize="lg">DESTINATION/REGION, CURRENCY AND <br/> LANGUAGE</Text>
+          <br/>
+          <div className='ind-img'>
+          <img width='5%' src="https://o.remove.bg/downloads/5d50bf29-3a8c-44eb-a10b-cb78972ce88c/Indian_Flag_Classic_Round_Sticker___Zazzle-removebg-preview.png" alt="img"/>
+          <Text>India, USD $</Text>
+          </div>
+          <div className='logo'>
+
+            <div><Link to="https://twitter.com/farfetch"><i class="fa-brands fa-twitter"></i></Link></div>
+            <div><Link to="https://www.facebook.com/farfetch"><i class="fa-brands fa-facebook"></i></Link></div>
+           <div><Link to="https://www.linkedin.com/company/farfetch"><i class="fa-brands fa-youtube"></i></Link></div>
+            <div><Link to="https://www.youtube.com/user/farfetchdotcom"><i class="fa-brands fa-linkedin-in"></i></Link></div>
+            <div><Link to="https://www.instagram.com/farfetch/"><i class="fa-brands fa-instagram"></i></Link></div>
+            
+          </div>
+          
+        </div>
+        <div>
+          <Text fontSize="lg">CUSTOMER <br/> SERVICE</Text>
+          <br/>
+          <p>Help Center</p>
+          <p>Orders & delivery</p>
+          <p>Payment & pricing</p>
+          <p>Returns & refunds</p>
+          <p>Promotion terms & <br/> conditions</p>
+          <p>Privacy policy</p>
+          <p>Accessibility</p>
+
+        </div>
+        <div>
+        <Text fontSize="lg">ABOUT FARFETCH</Text>
+        <br/>
         <p>About Us</p>
         <p>Careers</p>
         <p>Our Customers</p>
@@ -82,53 +86,10 @@ const Footer = () => {
         <p>User Conference</p>
         <p>Contact Us</p>
         </div>
-        <div>
-           <Text fontSize="lg">Guides</Text>
-            <div className='subpart'>
-           <div>
-              <p>Project Management</p>
-              <p>Karban Guide</p>
-              <p>Show more</p>
-           </div>
-           <div>
-           
-           <p>Professional services</p>
-           <p>Agile Guide</p>
-           </div>
-
-
-         </div>
-          <br />
-          
-         <div>
-            <Text fontSize="20px">Latest in Blog</Text>
-            <p>How Flexible Schedules Help Wrike's ...</p>
-            <p>How to Plan an Event: Best Practice Guide</p>
-            <p>The Ultimate Guide to Marketing..</p>
-            <p>Go-to-Market Strategy Examples You Need to Know</p>
-            <p>How Wrike Solutions Manager Valerio...</p>
-            <p>The Weeknd More Popular on Tuesdays</p>
-            <p>How to Action Items in Meeting Minutes</p>
-            </div>
-         
-        </div>
+        
        
     </div>
 
-    <hr />
-    <div >
-
-        <div >
-
-        <Link to="https://twitter.com/wrike"><i class="fa-brands fa-twitter"></i></Link>
-        <Link to="https://www.facebook.com/Wrike"><i class="fa-brands fa-facebook"></i></Link>
-        <Link to="https://www.linkedin.com/company/wrike"><i class="fa-brands fa-youtube"></i></Link>
-        <Link to="https://www.youtube.com/user/WrikeTeam"><i class="fa-brands fa-linkedin-in"></i></Link>
-        <Link to="https://www.instagram.com/wriketeam/"><i class="fa-brands fa-instagram"></i></Link>
-        
-        </div>
-        
-    </div>
     </div>
   )
 }
