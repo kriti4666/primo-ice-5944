@@ -13,7 +13,7 @@
 -  HTML 
 -  CSS
 
-### Netlify link - https://effulgent-biscotti-06a6fc.netlify.app
+### Netlify link - https://rad-mooncake-3e52f9.netlify.app/
 
 ## Features 
 - Used to build this website react,javascript,chakraUi,html,css
